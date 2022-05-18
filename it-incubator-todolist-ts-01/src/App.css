@@ -1,0 +1,253 @@
+html {
+    animation-name: back-ground-color;
+    animation-delay: 0s;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+}
+
+.App {
+
+}
+
+.App > div:hover {
+    /*background: rgb(172 35 217) radial-gradient(circle at 50% 0, rgb(51 81 191 / 65%), rgb(179 8 235 / 35%));*/
+}
+
+.App > div {
+    /*margin: 15px;*/
+    /*padding: 10px;*/
+    /*border-radius: 10px;*/
+    /*background-color: rgb(172 35 217);*/
+    /*box-shadow: inset rgb(227 8 170 / 60%) 0 -3px 8px, inset rgb(219 190 235 / 70%) 0 3px 8px, rgb(95 8 149 / 80%) 0 3px 8px -3px;*/
+    /*transition: background-color ease-in-out 1s;*/
+}
+
+.button-add-task {
+    /*background: #a6da48;*/
+}
+
+.button-add-task:hover {
+    /*background: #02fd05;*/
+}
+
+
+
+button {
+    /*border-radius: 10px;*/
+    /*margin-left: 5px;*/
+}
+
+li {
+    /*width: 300px;*/
+    /*word-wrap: break-word;*/
+}
+
+.error {
+    /*border: red 1px solid;*/
+}
+.error-message{
+    color: red;
+}
+.active-filter{
+    /*background-color: aquamarine;*/
+}
+.is-done{
+    opacity: 0.5;
+}
+@keyframes back-ground-color {
+    0% {
+        background: #9FA8DA
+    }
+    3.07% {
+        background: #F48FB1
+    }
+    4.605% {
+        background: #CE93D8
+    }
+    6.14% {
+        background: #B39DDB
+    }
+    7.675% {
+        background: #9FA8DA
+    }
+    9.21% {
+        background: #90CAF9
+    }
+    10.745% {
+        background: #81D4FA
+    }
+    12.28% {
+        background: #80DEEA
+    }
+    13.815% {
+        background: #80CBC4
+    }
+    15.35% {
+        background: #A5D6A7
+    }
+    16.885% {
+        background: #C5E1A5
+    }
+    18.42% {
+        background: #E6EE9C
+    }
+    19.955% {
+        background: #FFF59D
+    }
+    21.49% {
+        background: #FFE082
+    }
+    23.025% {
+        background: #FFCC80
+    }
+    24.56% {
+        background: #FFAB91
+    }
+    26.095% {
+        background: #FF8A65
+    }
+    27.63% {
+        background: #FFB74D
+    }
+    29.165% {
+        background: #FFD54F
+    }
+    30.7% {
+        background: #FFEE58
+    }
+    32.235% {
+        background: #D4E157
+    }
+    33.77% {
+        background: #9CCC65
+    }
+    35.305% {
+        background: #66BB6A
+    }
+    36.84% {
+        background: #26A69A
+    }
+    38.375% {
+        background: #26C6DA
+    }
+    39.91% {
+        background: #29B6F6
+    }
+    41.445% {
+        background: #42A5F5
+    }
+    42.98% {
+        background: #5C6BC0
+    }
+    44.515% {
+        background: #7E57C2
+    }
+    46.05% {
+        background: #AB47BC
+    }
+    47.585% {
+        background: #EC407A
+    }
+    49.12% {
+        background: #EF5350
+    }
+    50.655% {
+        background: #EF5350
+    }
+    52.19% {
+        background: #EC407A
+    }
+    53.725% {
+        background: #AB47BC
+    }
+    55.26% {
+        background: #7E57C2
+    }
+    56.795% {
+        background: #5C6BC0
+    }
+    58.33% {
+        background: #42A5F5
+    }
+    59.865% {
+        background: #29B6F6
+    }
+    61.4% {
+        background: #26C6DA
+    }
+    62.935% {
+        background: #26A69A
+    }
+    64.47% {
+        background: #66BB6A
+    }
+    66.005% {
+        background: #9CCC65
+    }
+    67.54% {
+        background: #D4E157
+    }
+    69.075% {
+        background: #FFEE58
+    }
+    70.61% {
+        background: #FFD54F
+    }
+    72.145% {
+        background: #FFB74D
+    }
+    73.68% {
+        background: #FF8A65
+    }
+    75.215% {
+        background: #FFAB91
+    }
+    76.75% {
+        background: #FFCC80
+    }
+    78.285% {
+        background: #FFE082
+    }
+    79.82% {
+        background: #FFF59D
+    }
+    81.355% {
+        background: #E6EE9C
+    }
+    82.89% {
+        background: #C5E1A5
+    }
+    84.425% {
+        background: #A5D6A7
+    }
+    85.96% {
+        background: #80CBC4
+    }
+    87.495% {
+        background: #80DEEA
+    }
+    89.03% {
+        background: #81D4FA
+    }
+    90.565% {
+        background: #90CAF9
+    }
+    92.1% {
+        background: #9FA8DA
+    }
+    93.635% {
+        background: #B39DDB
+    }
+    95.17% {
+        background: #CE93D8
+    }
+    96.705% {
+        background: #F48FB1
+    }
+    98.24% {
+        background: #9FA8DA
+    }
+    100% {
+        background: #B39DDB
+    }
+}
