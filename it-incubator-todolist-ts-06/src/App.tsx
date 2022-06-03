@@ -36,7 +36,6 @@ function App() {
         ]
     });
 
-
     function removeTask(id: string, todolistId: string) {
         //достанем нужный массив по todolistId:
         let todolistTasks = tasks[todolistId];
@@ -88,15 +87,18 @@ function App() {
 
     const newID = v1()
     const addTodolist = (newTitle: string) => {
-        const newTodo:TodolistType = {id: newID, title: newTitle, filter: "all"}
+        const newTodo: TodolistType = {id: newID, title: newTitle, filter: "all"}
         setTodolists([newTodo, ...todolists])
-        setTasks({...tasks, [newID]:[]})
+        setTasks({...tasks, [newID]: []})
     }
-const editTodolist =(todolistID:string, newTitle:string)=>{
-    setTodolists(todolists.map(el=>el.id===todolistID?{...el, title:newTitle}:el))
-}
-    const editTask =(todolistID:string,taskID:string, newTitle:string)=>{
-        setTasks({...tasks, [todolistID]:tasks[todolistID].map(el=>el.id===taskID?{...el,title:newTitle}:el)})
+    const editTodolist = (todolistID: string, newTitle: string) => {
+        setTodolists(todolists.map(el => el.id === todolistID ? {...el, title: newTitle} : el))
+    }
+    const editTask = (todolistID: string, taskID: string, newTitle: string) => {
+        setTasks({
+            ...tasks,
+            [todolistID]: tasks[todolistID].map(el => el.id === taskID ? {...el, title: newTitle} : el)
+        })
     }
     return (
         <div className="App">
