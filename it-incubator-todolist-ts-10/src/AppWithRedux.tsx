@@ -1,4 +1,4 @@
-import React, {useState, useReducer} from 'react';
+import React, {useReducer, useState} from 'react';
 import './App.css';
 import {TaskType, Todolist} from './Todolist';
 import {v1} from 'uuid';
@@ -29,13 +29,9 @@ export type TasksStateType = {
 
 
 function AppWithRedux() {
-    let todolistId1 = v1();
-    let todolistId2 = v1();
-
-    let todolist = useSelector<AppRootStateType, Array<TodolistType>>(state => state.todolists)
-    let tasks = useSelector<AppRootStateType, TasksStateType>(state => state.tasks)
-    let dispatch = useDispatch()
-
+    const dispatch = useDispatch()
+    const todolists = useSelector<AppRootStateType, Array<TodolistType>>((state)=>state.todolist)
+    const tasks = useSelector<AppRootStateType, TasksStateType>((state)=>state.tasks)
 
     function removeTask(id: string, todolistId: string) {
         dispatch(removeTaskAC(id, todolistId))
@@ -53,14 +49,13 @@ function AppWithRedux() {
         dispatch(changeTaskTitleAC(id, newTitle, todolistId))
     }
 
-
     function changeFilter(value: FilterValuesType, todolistId: string) {
         dispatch(changeTodolistFilterAC(todolistId, value))
     }
 
     function removeTodolist(id: string) {
-        dispatch(removeTodolistAC(id))
-        removeTodolistAC(id)
+        const action = removeTodolistAC(id)
+        dispatch(action)
     }
 
     function changeTodolistTitle(id: string, title: string) {
@@ -68,7 +63,7 @@ function AppWithRedux() {
     }
 
     function addTodolist(title: string) {
-        let action = addTodolistAC(title)
+        const action = addTodolistAC(title)
         dispatch(action)
     }
 
@@ -128,4 +123,4 @@ function AppWithRedux() {
     );
 }
 
-export default AppWithReducer;
+export default AppWithRedux;

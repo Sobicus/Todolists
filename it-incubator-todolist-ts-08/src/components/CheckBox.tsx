@@ -1,7 +1,20 @@
-import React from 'react';
+import React, {ChangeEvent} from "react";
+import {Checkbox} from "@material-ui/core";
 
-const CheckBox = (props) => (
-    
-);
+type PropsType = {
+    checked: boolean
+    callBack: (checked:boolean) => void
+}
 
-export default CheckBox;
+export const CheckBoxMy = (props: PropsType) => {
+    const onChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
+        props.callBack(e.currentTarget.checked)
+    }
+    return (
+        <Checkbox
+            checked={props.checked}
+            color="primary"
+            onChange={onChangeHandler}
+        />
+    )
+}
