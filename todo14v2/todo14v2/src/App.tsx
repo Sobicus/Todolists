@@ -20,14 +20,16 @@ import {
     TodolistDomainType
 } from './state/todolists-reducer'
 import {
-    addTaskAC, addTaskTC,
+    addTaskAC,
+    addTaskTC,
     changeTaskStatusAC,
     changeTaskTitleAC,
+    removeTaskAC,
     removeTaskTC, updateTaskStatusTC
 } from './state/tasks-reducer';
 import {useDispatch, useSelector} from 'react-redux';
 import {AppRootStateType} from './state/store';
-import {TaskStatuses, TaskType} from './api/todolists-api'
+import {TaskStatuses, TaskType, todolistsAPI} from './api/todolists-api'
 
 
 export type TasksStateType = {
@@ -41,28 +43,21 @@ function App() {
     const tasks = useSelector<AppRootStateType, TasksStateType>(state => state.tasks)
     const dispatch = useDispatch();
 
-    useEffect(() => {
-        dispatch(fetchTodolistsTC())
-    }, [])
-
     const removeTask = useCallback(function (id: string, todolistId: string) {
-        dispatch(removeTaskTC(todolistId, id));
+        dispatch(removeTaskTC(id, todolistId));
     }, []);
 
     const addTask = useCallback(function (title: string, todolistId: string) {
-        dispatch(addTaskTC(todolistId, title));
+        dispatch(addTaskTC(todolistId,title));
     }, []);
 
     const changeStatus = useCallback(function (id: string, status: TaskStatuses, todolistId: string) {
-        // const action = changeTaskStatusAC(id, status, todolistId);
-        // dispatch(action);
-        dispatch(updateTaskStatusTC(id,todolistId,status));
+        dispatch(updateTaskStatusTC(todolistId,id,{status}));
     }, []);
 
     const changeTaskTitle = useCallback(function (id: string, newTitle: string, todolistId: string) {
         const action = changeTaskTitleAC(id, newTitle, todolistId);
         dispatch(action);
-
     }, []);
 
     const changeFilter = useCallback(function (value: FilterValuesType, todolistId: string) {
@@ -84,6 +79,10 @@ function App() {
         const action = addTodolistAC(title);
         dispatch(action);
     }, [dispatch]);
+
+    useEffect(() => {
+        dispatch(fetchTodolistsTC)
+    }, [])
 
     return (
         <div className="App">
