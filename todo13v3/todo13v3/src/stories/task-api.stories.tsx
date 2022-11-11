@@ -1,9 +1,10 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios'
 import {todolistAPI} from "../api/todolist-api";
+import {taskAPI} from "../api/task-api";
 
 export default {
-    title: 'API TODOLISTS'
+    title: 'API TASK'
 }
 
 // const settings = {
@@ -16,35 +17,39 @@ export default {
 export const GetTodolists = () => {
     const [state, setState] = useState<any>(null)
     useEffect(() => {
-        todolistAPI.getTodolists()
+        const todolistId ='fcee88ea-d979-490d-a04a-94c17474a919'
+        taskAPI.getTasks(todolistId)
             .then(res => setState(res.data))
     }, [])
     return <div>{JSON.stringify(state)}</div>
 }
-export const CreateTodolist = () => {
+export const CreateTask = () => {
     const [state, setState] = useState<any>(null)
     useEffect(() => {
-        todolistAPI.createTodolist('WHAT`S UPPPP!!!!')
-            .then(res => setState(res.data))
-    }, [])
-
-    return <div>{JSON.stringify(state)}</div>
-}
-export const DeleteTodolist = () => {
-    const [state, setState] = useState<any>(null)
-    useEffect(() => {
-        const tododlistId = '0cde422e-2336-4ee1-aa94-26a31e73d116'
-        todolistAPI.deleteTodolist(tododlistId)
+        const todolistId ='fcee88ea-d979-490d-a04a-94c17474a919'
+        taskAPI.createTask(todolistId,'WHAT`S UPPPP!!!!')
             .then(res => setState(res.data))
     }, [])
 
     return <div>{JSON.stringify(state)}</div>
 }
-export const UpdateTodolistTitle = () => {
+export const DeleteTask = () => {
     const [state, setState] = useState<any>(null)
     useEffect(() => {
-        const tododlistId = '0cde422e-2336-4ee1-aa94-26a31e73d116'
-        todolistAPI.updateTodolist(tododlistId, 'UNDECEMBER')
+        const tododlistId = 'fcee88ea-d979-490d-a04a-94c17474a919'
+        const taskId = '5547186d-bca7-428a-9084-213c3e1c7006'
+        taskAPI.deleteTask(tododlistId, taskId)
+            .then(res => setState(res.data))
+    }, [])
+
+    return <div>{JSON.stringify(state)}</div>
+}
+export const UpdateTask = () => {
+    const [state, setState] = useState<any>(null)
+    useEffect(() => {
+        const tododlistId = 'fcee88ea-d979-490d-a04a-94c17474a919'
+        const taskId = '5547186d-bca7-428a-9084-213c3e1c7006'
+        taskAPI.updateTask(tododlistId,taskId, 'UNDECEMBERSHEEE')
             .then(res => setState(res.data))
     }, [])
 
