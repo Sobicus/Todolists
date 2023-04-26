@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7f1ef27-bf18-413c-aded-68bf5da175d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/todolist-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolist-api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo14v2/todo14v2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo14v2/todo14v2/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo14v2/todo14v2/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo14v2/todo14v2/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo14v2/todo14v2/src/Todolist.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo14v2/todo14v2/src/api/todolists-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo14v2/todo14v2/src/api/todolists-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo14v2/todo14v2/src/state/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo14v2/todo14v2/src/state/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo14v2/todo14v2/src/state/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo14v2/todo14v2/src/state/tasks-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo14v2/todo14v2/src/state/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo14v2/todo14v2/src/state/todolists-reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,16 +28,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "E:\\FrontEnd\\IT-Incubator\\Todolists\\todo13v2\\todo13v2\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\FrontEnd\\IT-Incubator\\Todolists\\todo13v2\\todo13v2\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -60,7 +63,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665677041454</updated>
-      <workItem from="1665677043525" duration="10473000" />
+      <workItem from="1665677043525" duration="11580000" />
+      <workItem from="1666282370193" duration="40000" />
     </task>
     <servers />
   </component>

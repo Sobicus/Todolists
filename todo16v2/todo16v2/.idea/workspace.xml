@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8b03404c-7f7c-4b5a-b6ff-03ebcb9fdbcb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/AddItemForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/AppWithReducers.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/AppWithRedux.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/EditableSpan.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/Todolist.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/serviceWorker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/state/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/state/tasks-reducer.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/state/tasks-reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/state/todolists-reducer.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/state/todolists-reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/state/todolists-tasks-reducer.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/state/user-reducer.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/src/state/user-reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../it-incubator-todolist-ts-11/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo13v2/todo13v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo13v2/todo13v2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo14v2/todo14v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo14v2/todo14v2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/.idea/todo15v2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/api/todolists-api.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/app/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/app/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/app/app-reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/app/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/components/AddItemForm/AddItemForm.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/components/EditableSpan/EditableSpan.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/components/ErrorSnackbar/ErrorSnackbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/features/TodolistsList/Todolist/Task/Task.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/features/TodolistsList/Todolist/Todolist.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/features/TodolistsList/TodolistsList.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/features/TodolistsList/tasks-reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/features/TodolistsList/todolists-reducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/reportWebVitals.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/src/utils/error-utils.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../todo15v2/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/todolists-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolists-api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/Login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/Login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/Login/auth-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/Login/auth-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/TodolistsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TodolistsList/todolists-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/login/authReducer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/login/login.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2H2eNZfJhrtOguOTgxot0583nBF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\FrontEnd\\IT-Incubator\\Todolists\\todo16v2\\todo16v2\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b03404c-7f7c-4b5a-b6ff-03ebcb9fdbcb" name="Changes" comment="" />
+      <created>1667487570214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667487570214</updated>
+      <workItem from="1667487573563" duration="11376000" />
+      <workItem from="1672257263177" duration="694000" />
+      <workItem from="1673973998385" duration="641000" />
+      <workItem from="1676650147567" duration="1022000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2afaad9f-5415-4b7b-b1b3-2ca2beb812fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../todo13v2/todo13v2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../todo13v2/todo13v2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Todolist.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/tasks-reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/todolists-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/todolists-reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666281495095</updated>
-      <workItem from="1666281497084" duration="8946000" />
+      <workItem from="1666281497084" duration="9024000" />
     </task>
     <servers />
   </component>

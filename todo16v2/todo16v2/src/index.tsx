@@ -5,16 +5,16 @@ import reportWebVitals from './reportWebVitals';
 import App from './app/App';
 import {Provider} from 'react-redux';
 import {store} from './app/store';
-import {BrowserRouter, HashRouter} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.render(
-    // <React.StrictMode>
+    <React.StrictMode>
         <Provider store={store}>
-            <HashRouter>
+            <BrowserRouter>
                 <App/>
-            </HashRouter>
-        </Provider>,
-    // </React.StrictMode>,
+            </BrowserRouter>
+        </Provider>
+    </React.StrictMode>,
     document.getElementById('root')
 );
 
