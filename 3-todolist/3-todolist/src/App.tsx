@@ -8,11 +8,11 @@ export type FilterValuesType = "all" | "active" | "completed";
 function App() {
 
     let [tasks, setTasks] = useState([
-        { id: v1(), title: "HTML&CSS", isDone: true },
-        { id: v1(), title: "JS", isDone: true },
-        { id: v1(), title: "ReactJS", isDone: false },
-        { id: v1(), title: "Rest API", isDone: false },
-        { id: v1(), title: "GraphQL", isDone: false },
+        {id: v1(), title: "HTML&CSS", isDone: true},
+        {id: v1(), title: "JS", isDone: true},
+        {id: v1(), title: "ReactJS", isDone: false},
+        {id: v1(), title: "Rest API", isDone: false},
+        {id: v1(), title: "GraphQL", isDone: false},
     ]);
 
     function removeTask(id: string) {
@@ -35,8 +35,8 @@ function App() {
         setFilter(value);
     }
 
-    const addTask = (title: string) =>{
-        let newTask = { id: v1(), title:title, isDone: false }
+    const addTask = (title: string) => {
+        let newTask = {id: v1(), title: title, isDone: false}
         setTasks([...tasks, newTask])
     }
 

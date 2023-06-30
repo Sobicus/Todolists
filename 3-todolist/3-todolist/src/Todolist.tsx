@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import {FilterValuesType} from './App';
+import {log} from "util";
 
 export type TaskType = {
     id: string
@@ -21,13 +22,17 @@ export function Todolist(props: PropsType) {
 
      const addTaskHandler = ()=>{
          props.addTask(title)
-         setTitle(' ')
+         setTitle('')
+     }
+
+     const onKeyHandler = (key:string)=>{
+        if(key=='Enter')addTaskHandler()
      }
 
     return <div>
         <h3>{props.title}</h3>
         <div>
-            <input value={title} onChange={e => setTitle(e.currentTarget.value)}/>
+            <input onKeyPress={e=>onKeyHandler(e.key)} value={title} onChange={e => setTitle(e.currentTarget.value)}/>
             <button disabled={title.length<1} onClick={() => addTaskHandler()}>+</button>
         </div>
         <ul>
