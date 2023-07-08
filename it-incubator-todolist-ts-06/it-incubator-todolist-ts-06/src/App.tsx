@@ -35,8 +35,6 @@ function App() {
             {id: v1(), title: "React Book", isDone: true}
         ]
     });
-
-
     function removeTask(id: string, todolistId: string) {
         //достанем нужный массив по todolistId:
         let todolistTasks = tasks[todolistId];
@@ -90,8 +88,21 @@ function App() {
         let todolistId = v1()
         let newTodolist: TodolistType = {id: todolistId, title: title, filter: "all"}
 
-        setTodolists([newTodolist,...todolists])
+        setTodolists([newTodolist, ...todolists])
         setTasks({...tasks, [todolistId]: []})
+    }
+
+    function changeTaskTitle(todolistId: string, taskId: string, newValue: string) {
+        let changeTaskTitle = tasks[todolistId].find(el => el.id === taskId)
+        if (changeTaskTitle)
+            changeTaskTitle.title = newValue
+        setTasks({...tasks})
+    }
+    function changeTodolistTitle(todolistId: string, newTitle: string) {
+        let changeTodolistTitle = todolists.find(el => el.id === todolistId)
+        if (changeTodolistTitle)
+            changeTodolistTitle.title = newTitle
+        setTodolists([...todolists])
     }
 
     return (
@@ -120,6 +131,8 @@ function App() {
                         changeTaskStatus={changeStatus}
                         filter={tl.filter}
                         removeTodolist={removeTodolist}
+                        changeTaskTitle={changeTaskTitle}
+                        changeTodolistTitle={changeTodolistTitle}
                     />
                 })
             }
