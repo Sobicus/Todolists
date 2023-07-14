@@ -1,12 +1,16 @@
 import React from 'react';
 import './index.css';
-import { createRoot } from 'react-dom/client';
+import {createRoot} from 'react-dom/client';
 import * as serviceWorker from './serviceWorker';
-import AppWithReducers from './AppWithReducers';
+import AppWithRedux from './AppWithReducers';
+import {Provider} from "react-redux";
+import {store} from './state/store';
 
-const container  = document.getElementById('root') as HTMLElement
+const container = document.getElementById('root') as HTMLElement
 const root = createRoot(container);
-root.render(<AppWithReducers />);
+root.render(<Provider store={store}>
+    <AppWithRedux/>
+</Provider>);
 
 
 // If you want your app to work offline and load faster, you can change
