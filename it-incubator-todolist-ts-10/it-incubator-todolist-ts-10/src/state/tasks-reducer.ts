@@ -1,4 +1,4 @@
-import {FilterValuesType, TasksStateType, TodolistType} from '../App';
+import {TasksStateType} from '../AppWithRedux';
 import {v1} from 'uuid';
 import {AddTodolistActionType, RemoveTodolistActionType, todolistId1, todolistId2} from './todolists-reducer';
 
@@ -62,12 +62,9 @@ export const tasksReducer = (state: TasksStateType=initialState, action: Actions
             const stateCopy = {...state};
 
             let tasks = stateCopy[action.todolistId];
+            stateCopy[action.todolistId]=tasks.map(el=>el.id===action.taskId?{...el, isDone:action.isDone}:el)
             // найдём нужную таску:
-            let task = tasks.find(t => t.id === action.taskId);
-            //изменим таску, если она нашлась
-            if (task) {
-                task.isDone = action.isDone;
-            }
+
             return stateCopy;
         }
         case 'CHANGE-TASK-TITLE': {
