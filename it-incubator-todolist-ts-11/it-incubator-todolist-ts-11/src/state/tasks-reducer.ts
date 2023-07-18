@@ -59,24 +59,32 @@ export const tasksReducer = (state: TasksStateType = initialState, action: Actio
             return stateCopy;
         }
         case 'CHANGE-TASK-STATUS': {
-            let todolistTasks = state[action.todolistId];
-            // найдём нужную таску:
-            let task = todolistTasks.find(t => t.id === action.taskId);
-            //изменим таску, если она нашлась
-            if (task) {
-                task.isDone = action.isDone;
+            // let todolistTasks = state[action.todolistId];
+            // // найдём нужную таску:
+            // let task = todolistTasks.find(t => t.id === action.taskId);
+            // //изменим таску, если она нашлась
+            // if (task) {
+            //     task.isDone = action.isDone;
+            // }
+            // return ({...state});
+            return {
+                ...state,
+                [action.todolistId]: state[action.todolistId].map(el => el.id === action.taskId ? {
+                    ...el,
+                    isDone: action.isDone
+                } : el)
             }
-            return ({...state});
         }
         case 'CHANGE-TASK-TITLE': {
-            let todolistTasks = state[action.todolistId];
-            // найдём нужную таску:
-            let task = todolistTasks.find(t => t.id === action.taskId);
-            //изменим таску, если она нашлась
-            if (task) {
-                task.title = action.title;
-            }
-            return ({...state});
+            // let todolistTasks = state[action.todolistId];
+            // // найдём нужную таску:
+            // let task = todolistTasks.find(t => t.id === action.taskId);
+            // //изменим таску, если она нашлась
+            // if (task) {
+            //     task.title = action.title;
+            // }
+            // return ({...state});
+            return{...state, [action.todolistId]:state[action.todolistId].map(el=>el.id===action.taskId?{...el, title:action.title}:el)}
         }
         case 'ADD-TODOLIST': {
             return {
