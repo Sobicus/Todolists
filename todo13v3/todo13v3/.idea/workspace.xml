@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dbe8f50-c03d-479c-a180-da49d7670d56" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../1-todolist/1-todolist/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../1-todolist/1-todolist/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../1-todolist/1-todolist/.idea/1-todolist.iml" beforeDir="false" />
@@ -385,13 +386,8 @@
       <change beforePath="$PROJECT_DIR$/../../todo13v2/todo13v2/src/stories/todolists-api.stories.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todo13v2/todo13v2/tsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todo13v2/todo13v2/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/todo13v3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/todo13v3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/task-api.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/todolist-api.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/task-api.stories.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todo14v2.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todo14v2/todo14v2/.gitignore" beforeDir="false" />
@@ -546,22 +542,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "MTConfigurable",
-    "ts.external.directory.path": "E:\\FrontEnd\\IT-Incubator\\Todolists\\todo13v3\\todo13v3\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\FrontEnd\\IT-Incubator\\Todolists\\todo13v3\\todo13v3\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -571,7 +567,8 @@
       <option name="presentableId" value="Default" />
       <updated>1689877016305</updated>
       <workItem from="1689877018611" duration="1016000" />
-      <workItem from="1689938148492" duration="2005000" />
+      <workItem from="1689938148492" duration="2308000" />
+      <workItem from="1690193805990" duration="4187000" />
     </task>
     <servers />
   </component>
