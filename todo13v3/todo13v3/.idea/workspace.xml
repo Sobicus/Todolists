@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7dbe8f50-c03d-479c-a180-da49d7670d56" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/api/tasks-api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../1-todolist/1-todolist/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../1-todolist/1-todolist/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../1-todolist/1-todolist/.idea/1-todolist.iml" beforeDir="false" />
@@ -386,6 +387,7 @@
       <change beforePath="$PROJECT_DIR$/../../todo13v2/todo13v2/tsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todo13v2/todo13v2/yarn.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/todolist-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/todolist-api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/todolists-api.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todo14v2.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../todo14v2/todo14v2/.gitignore" beforeDir="false" />
@@ -535,10 +537,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": -1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
   <component name="ProjectId" id="2SqbN3InfMOsnPzSeG8oNsOo2br" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -573,7 +575,8 @@
       <workItem from="1690193805990" duration="4816000" />
       <workItem from="1690282507743" duration="477000" />
       <workItem from="1690286299291" duration="139000" />
-      <workItem from="1690286506228" duration="10991000" />
+      <workItem from="1690286506228" duration="11735000" />
+      <workItem from="1690367702080" duration="13507000" />
     </task>
     <servers />
   </component>
