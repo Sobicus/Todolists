@@ -5,6 +5,5 @@ test('test', () => {
 
     expect(a).toBe(1);
     expect(b).toBe(2);
-    //wrong toBe
-    expect(c).toBe(2);
+    expect(c).toBe(3);
 })
