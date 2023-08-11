@@ -1,8 +1,9 @@
 import {TasksStateType} from '../App';
 import {v1} from 'uuid';
 import {AddTodolistActionType, RemoveTodolistActionType, SetTodolistsActionType} from './todolists-reducer';
-import {TaskPriorities, TaskStatuses, TaskType, todolistsAPI} from '../api/todolists-api'
+import {TaskPriorities, TaskStatuses, TaskType, todolistsAPI, UpdateTaskModelType} from '../api/todolists-api'
 import {Dispatch} from "redux";
+import {AppRootStateType} from "./store";
 
 export type RemoveTaskActionType = {
     type: 'REMOVE-TASK',
@@ -159,4 +160,38 @@ export const addTaskTC = (title: string, todolistId: string) => (dispatch: Dispa
     todolistsAPI.createTask(todolistId, title).then(res => {
         dispatch(addTaskAC(res.data.data.item))
     })
+}
+export const changeTaskStatusTC = (taskId: string, status: TaskStatuses, todolistId: string) => (dispatch: Dispatch, getState: () => AppRootStateType) => {
+    const state = getState()
+    const task = state.tasks[todolistId].find(t => t.id === taskId)
+    if (!task) {
+        //throw new Error('task not found in the state')
+        console.warn('task not found in the state')
+        return
+    }
+    const model: UpdateTaskModelType = {
+        title: task.title,
+        description: task.description,
+        status: status,
+        priority: task.priority,
+        startDate: task.startDate,
+        deadline: task.deadline
+    }
+    todolistsAPI.updateTask(todolistId, taskId, model).then(res => {
+        dispatch(changeTaskStatusAC(taskId, status, todolistId))
+    })
+}
+
+export const changeTaskTitleTC = (taskId: string, title: string, todolistId: string) => (dispatch: Dispatch, getState: () => AppRootStateType) => {
+    const state = getState()
+    const task = state.tasks[todolistId].find(t => t.id === taskId)
+    if (task) {
+        const model: UpdateTaskModelType = {
+            ...task,
+            title: title
+        }
+        todolistsAPI.updateTask(todolistId, taskId, model).then(res => {
+            dispatch(changeTaskTitleAC(taskId, title, todolistId))
+        })
+    }
 }

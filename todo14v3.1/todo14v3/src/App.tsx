@@ -14,7 +14,7 @@ import {Menu} from '@mui/icons-material';
 import {
     addTodolistAC,
     changeTodolistFilterAC,
-    changeTodolistTitleAC, createTodolistTC, fetchTodolistsTC, fetchTodolistsThunk,
+    changeTodolistTitleAC, changeTodolistTitleTC, createTodolistTC, fetchTodolistsTC, fetchTodolistsThunk,
     FilterValuesType,
     removeTodolistAC, removeTodolistTC,
     TodolistDomainType
@@ -22,8 +22,8 @@ import {
 import {
     addTaskAC,
     addTaskTC,
-    changeTaskStatusAC,
-    changeTaskTitleAC,
+    changeTaskStatusAC, changeTaskStatusTC,
+    changeTaskTitleAC, changeTaskTitleTC,
     removeTaskAC,
     removeTaskTC
 } from './state/tasks-reducer';
@@ -53,17 +53,15 @@ function App() {
     }, []);
 
     const addTask = useCallback(function (title: string, todolistId: string) {
-        myDispatch(addTaskTC(title,todolistId))
+        myDispatch(addTaskTC(title, todolistId))
     }, []);
 
     const changeStatus = useCallback(function (id: string, status: TaskStatuses, todolistId: string) {
-        const action = changeTaskStatusAC(id, status, todolistId);
-        dispatch(action);
+        myDispatch(changeTaskStatusTC(id, status, todolistId))
     }, []);
 
     const changeTaskTitle = useCallback(function (id: string, newTitle: string, todolistId: string) {
-        const action = changeTaskTitleAC(id, newTitle, todolistId);
-        dispatch(action);
+        myDispatch(changeTaskTitleTC(id, newTitle, todolistId))
     }, []);
 
     const changeFilter = useCallback(function (value: FilterValuesType, todolistId: string) {
@@ -72,14 +70,11 @@ function App() {
     }, []);
 
     const removeTodolist = useCallback(function (id: string) {
-        // const action = removeTodolistAC(id);
-        // dispatch(action);
         myDispatch(removeTodolistTC(id))
     }, []);
 
     const changeTodolistTitle = useCallback(function (id: string, title: string) {
-        const action = changeTodolistTitleAC(id, title);
-        dispatch(action);
+        myDispatch(changeTodolistTitleTC(id, title))
     }, []);
 
     const addTodolist = useCallback((title: string) => {
